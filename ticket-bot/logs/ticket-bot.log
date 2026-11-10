@@ -1,0 +1,209 @@
+10:08:00 WARNING  discord.client: PyNaCl is not installed, voice will NOT be supported
+10:08:00 WARNING  discord.client: davey is not installed, voice will NOT be supported
+10:08:00 INFO     discord.client: logging in using static token
+10:08:02 INFO     tickets: Synced 1 commands to guild 1557752598998818867 (immediate).
+10:08:02 INFO     tickets: Cleared global command copies; guild commands remain active.
+10:08:03 INFO     discord.gateway: Shard ID None has connected to Gateway (Session ID: fad9b2b6f14b5943d759ddcb0bad788c).
+10:08:05 INFO     tickets: Logged in as Vitu-Chan Ticket#1607 (1568286573424807996), serving 1 guild(s).
+10:08:24 WARNING  discord.client: PyNaCl is not installed, voice will NOT be supported
+10:08:24 WARNING  discord.client: davey is not installed, voice will NOT be supported
+10:08:24 INFO     discord.client: logging in using static token
+10:09:02 INFO     tickets: Synced 1 commands to guild 1557752598998818867 (immediate).
+10:09:02 INFO     tickets: Cleared global command copies; guild commands remain active.
+10:09:03 INFO     discord.gateway: Shard ID None has connected to Gateway (Session ID: 3e8eff7ce98e4e40b480c510e54a07e1).
+10:09:05 INFO     tickets: Logged in as Vitu-Chan Ticket#1607 (1568286573424807996), serving 1 guild(s).
+10:09:48 INFO     tickets: Ticket #0001 was deleted outside the bot.
+10:10:51 INFO     tickets: [pjs_exploit server] Ticket #0003 opened by gregoryis123 (1525898113166999802) - General Support
+10:15:09 WARNING  discord.client: PyNaCl is not installed, voice will NOT be supported
+10:15:09 WARNING  discord.client: davey is not installed, voice will NOT be supported
+10:15:09 INFO     discord.client: logging in using static token
+10:15:16 WARNING  discord.client: PyNaCl is not installed, voice will NOT be supported
+10:15:16 WARNING  discord.client: davey is not installed, voice will NOT be supported
+10:15:16 INFO     discord.client: logging in using static token
+10:15:17 INFO     tickets: Persistent components ready: ['ticket:adduser', 'ticket:claim', 'ticket:close', 'ticket:open']
+10:15:18 INFO     tickets: Synced 1 commands to guild 1557752598998818867 (immediate).
+10:15:18 INFO     tickets: Cleared global command copies; guild commands remain active.
+10:15:19 INFO     discord.gateway: Shard ID None has connected to Gateway (Session ID: 53a02804fdd0a56673cb01ad7fb6017d).
+10:15:21 INFO     tickets: Logged in as Vitu-Chan Ticket#1607 (1568286573424807996), serving 1 guild(s).
+10:15:37 INFO     tickets: Claim attempt: guild=1557752598998818867 channel=1568462710080012321 user=gregoryis123 (1525898113166999802) message=1568462712223043585
+10:15:37 INFO     tickets: Component interaction 'ticket:claim' by gregoryis123 (1525898113166999802) in channel 1568462710080012321
+10:15:43 INFO     tickets: Component interaction 'ticket:close' by gregoryis123 (1525898113166999802) in channel 1568462710080012321
+10:15:52 WARNING  tickets: Could not deliver the transcript to the log channel: 403 Forbidden (error code: 50001): Missing Access
+10:16:00 INFO     tickets: [pjs_exploit server] Ticket #0003 closed by gregoryis123 (1525898113166999802): no
+10:16:00 ERROR    discord.ui.modal: Ignoring exception in modal <CloseModal timeout=None children=1>:
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\Documents\ticket-bot\.venv\Lib\site-packages\discord\ui\modal.py", line 216, in _scheduled_task
+    await self.on_submit(interaction)
+  File "C:\Users\Lenovo\Documents\ticket-bot\bot.py", line 509, in on_submit
+    await self.bot.close_from_interaction(interaction, str(self.reason.value or "").strip())
+  File "C:\Users\Lenovo\Documents\ticket-bot\bot.py", line 1386, in close_from_interaction
+    await interaction.followup.send(
+    ...<6 lines>...
+    )
+  File "C:\Users\Lenovo\Documents\ticket-bot\.venv\Lib\site-packages\discord\webhook\async_.py", line 1909, in send
+    data = await adapter.execute_webhook(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<11 lines>...
+    )
+    ^
+  File "C:\Users\Lenovo\Documents\ticket-bot\.venv\Lib\site-packages\discord\webhook\async_.py", line 224, in request
+    raise NotFound(response, data)
+discord.errors.NotFound: 404 Not Found (error code: 10008): Unknown Message
+10:18:13 INFO     tickets: Component interaction 'ticket:open' by gregoryis123 (1525898113166999802) in channel 1568446874002788382
+10:18:14 INFO     tickets: [pjs_exploit server] Ticket #0004 opened by gregoryis123 (1525898113166999802) - Something Else
+10:18:28 INFO     tickets: Component interaction 'ticket:adduser' by gregoryis123 (1525898113166999802) in channel 1568464569226108969
+10:18:37 INFO     tickets: Component interaction 'ticket:close' by gregoryis123 (1525898113166999802) in channel 1568464569226108969
+10:18:44 WARNING  tickets: Could not deliver the transcript to the log channel: 403 Forbidden (error code: 50001): Missing Access
+10:18:52 INFO     tickets: [pjs_exploit server] Ticket #0004 closed by gregoryis123 (1525898113166999802): fuck u
+10:18:53 ERROR    discord.ui.modal: Ignoring exception in modal <CloseModal timeout=None children=1>:
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\Documents\ticket-bot\.venv\Lib\site-packages\discord\ui\modal.py", line 216, in _scheduled_task
+    await self.on_submit(interaction)
+  File "C:\Users\Lenovo\Documents\ticket-bot\bot.py", line 509, in on_submit
+    await self.bot.close_from_interaction(interaction, str(self.reason.value or "").strip())
+  File "C:\Users\Lenovo\Documents\ticket-bot\bot.py", line 1386, in close_from_interaction
+    await interaction.followup.send(
+    ...<6 lines>...
+    )
+  File "C:\Users\Lenovo\Documents\ticket-bot\.venv\Lib\site-packages\discord\webhook\async_.py", line 1909, in send
+    data = await adapter.execute_webhook(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<11 lines>...
+    )
+    ^
+  File "C:\Users\Lenovo\Documents\ticket-bot\.venv\Lib\site-packages\discord\webhook\async_.py", line 224, in request
+    raise NotFound(response, data)
+discord.errors.NotFound: 404 Not Found (error code: 10008): Unknown Message
+10:18:57 INFO     tickets: Component interaction 'ticket:close' by gregoryis123 (1525898113166999802) in channel 1568451842772303933
+10:19:04 WARNING  tickets: Could not deliver the transcript to the log channel: 403 Forbidden (error code: 50001): Missing Access
+10:19:12 INFO     tickets: [pjs_exploit server] Ticket #0002 closed by gregoryis123 (1525898113166999802): nigger
+10:19:12 ERROR    discord.ui.modal: Ignoring exception in modal <CloseModal timeout=None children=1>:
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\Documents\ticket-bot\.venv\Lib\site-packages\discord\ui\modal.py", line 216, in _scheduled_task
+    await self.on_submit(interaction)
+  File "C:\Users\Lenovo\Documents\ticket-bot\bot.py", line 509, in on_submit
+    await self.bot.close_from_interaction(interaction, str(self.reason.value or "").strip())
+  File "C:\Users\Lenovo\Documents\ticket-bot\bot.py", line 1386, in close_from_interaction
+    await interaction.followup.send(
+    ...<6 lines>...
+    )
+  File "C:\Users\Lenovo\Documents\ticket-bot\.venv\Lib\site-packages\discord\webhook\async_.py", line 1909, in send
+    data = await adapter.execute_webhook(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<11 lines>...
+    )
+    ^
+  File "C:\Users\Lenovo\Documents\ticket-bot\.venv\Lib\site-packages\discord\webhook\async_.py", line 224, in request
+    raise NotFound(response, data)
+discord.errors.NotFound: 404 Not Found (error code: 10008): Unknown Message
+10:23:18 WARNING  discord.client: PyNaCl is not installed, voice will NOT be supported
+10:23:18 WARNING  discord.client: davey is not installed, voice will NOT be supported
+10:23:18 INFO     discord.client: logging in using static token
+10:23:19 INFO     tickets: Persistent components ready: ['ticket:adduser', 'ticket:claim', 'ticket:close', 'ticket:open']
+10:23:19 ERROR    tickets: Could not sync commands to guild 1557752598998818867: 403 Forbidden (error code: 50001): Missing Access
+10:23:20 INFO     tickets: Fell back to 1 global commands.
+10:23:21 INFO     discord.gateway: Shard ID None has connected to Gateway (Session ID: 36484d552689e1b313a4cda212d8968a).
+10:23:23 INFO     tickets: Logged in as Vitu-Chan Ticket#1607 (1568286573424807996), serving 0 guild(s).
+10:24:29 WARNING  discord.client: PyNaCl is not installed, voice will NOT be supported
+10:24:29 WARNING  discord.client: davey is not installed, voice will NOT be supported
+10:24:29 INFO     discord.client: logging in using static token
+10:24:30 INFO     tickets: Persistent components ready: ['ticket:adduser', 'ticket:claim', 'ticket:close', 'ticket:open']
+10:24:30 ERROR    tickets: Could not sync commands to guild 1557752598998818867: 403 Forbidden (error code: 50001): Missing Access
+10:24:31 INFO     tickets: Fell back to 1 global commands.
+10:24:32 INFO     discord.gateway: Shard ID None has connected to Gateway (Session ID: 74c26d7faf81570d4c144ffa3cecc09c).
+10:24:34 INFO     tickets: Logged in as Vitu-Chan Ticket#1607 (1568286573424807996), serving 0 guild(s).
+10:29:19 INFO     tickets: Component interaction 'ticket:open' by gregoryis123 (1525898113166999802) in channel 1568446874002788382
+10:29:29 INFO     tickets: [pjs_exploit server] Ticket #0005 opened by gregoryis123 (1525898113166999802) - General Support
+10:29:37 INFO     tickets: Claim attempt: guild=1557752598998818867 channel=1568467400108802150 user=gregoryis123 (1525898113166999802) message=1568467401773809715
+10:29:37 INFO     tickets: Component interaction 'ticket:claim' by gregoryis123 (1525898113166999802) in channel 1568467400108802150
+10:30:00 INFO     tickets: Component interaction 'ticket:close' by gregoryis123 (1525898113166999802) in channel 1568467400108802150
+10:30:08 WARNING  tickets: Could not deliver the transcript to the log channel: 403 Forbidden (error code: 50001): Missing Access
+10:30:16 INFO     tickets: [pjs_exploit server] Ticket #0005 closed by gregoryis123 (1525898113166999802): testing
+10:30:16 ERROR    discord.ui.modal: Ignoring exception in modal <CloseModal timeout=None children=1>:
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\Documents\ticket-bot\.venv\Lib\site-packages\discord\ui\modal.py", line 216, in _scheduled_task
+    await self.on_submit(interaction)
+  File "C:\Users\Lenovo\Documents\ticket-bot\bot.py", line 511, in on_submit
+    await self.bot.close_from_interaction(interaction, str(self.reason.value or "").strip())
+  File "C:\Users\Lenovo\Documents\ticket-bot\bot.py", line 1447, in close_from_interaction
+    try:
+    ^^^^
+    ...<6 lines>...
+        return
+    
+  File "C:\Users\Lenovo\Documents\ticket-bot\.venv\Lib\site-packages\discord\webhook\async_.py", line 1909, in send
+    data = await adapter.execute_webhook(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<11 lines>...
+    )
+    ^
+  File "C:\Users\Lenovo\Documents\ticket-bot\.venv\Lib\site-packages\discord\webhook\async_.py", line 224, in request
+    raise NotFound(response, data)
+discord.errors.NotFound: 404 Not Found (error code: 10008): Unknown Message
+10:31:35 INFO     tickets: Component interaction 'ticket:open' by gregoryis123 (1525898113166999802) in channel 1568446874002788382
+10:31:51 INFO     tickets: [pjs_exploit server] Ticket #0006 opened by gregoryis123 (1525898113166999802) - Something Else
+10:31:58 INFO     tickets: Claim attempt: guild=1557752598998818867 channel=1568467997201535026 user=gregoryis123 (1525898113166999802) message=1568467998858289235
+10:31:58 INFO     tickets: Component interaction 'ticket:claim' by gregoryis123 (1525898113166999802) in channel 1568467997201535026
+10:32:18 INFO     tickets: Component interaction 'ticket:close' by gregoryis123 (1525898113166999802) in channel 1568467997201535026
+10:32:32 WARNING  tickets: Could not deliver the transcript to the log channel: 403 Forbidden (error code: 50001): Missing Access
+10:32:39 INFO     tickets: [pjs_exploit server] Ticket #0006 closed by gregoryis123 (1525898113166999802): unknown person "fuckers"
+10:32:39 ERROR    discord.ui.modal: Ignoring exception in modal <CloseModal timeout=None children=1>:
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\Documents\ticket-bot\.venv\Lib\site-packages\discord\ui\modal.py", line 216, in _scheduled_task
+    await self.on_submit(interaction)
+  File "C:\Users\Lenovo\Documents\ticket-bot\bot.py", line 511, in on_submit
+    await self.bot.close_from_interaction(interaction, str(self.reason.value or "").strip())
+  File "C:\Users\Lenovo\Documents\ticket-bot\bot.py", line 1447, in close_from_interaction
+    try:
+    ^^^^
+    ...<6 lines>...
+        return
+    
+  File "C:\Users\Lenovo\Documents\ticket-bot\.venv\Lib\site-packages\discord\webhook\async_.py", line 1909, in send
+    data = await adapter.execute_webhook(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<11 lines>...
+    )
+    ^
+  File "C:\Users\Lenovo\Documents\ticket-bot\.venv\Lib\site-packages\discord\webhook\async_.py", line 224, in request
+    raise NotFound(response, data)
+discord.errors.NotFound: 404 Not Found (error code: 10008): Unknown Message
+16:08:48 WARNING  discord.client: PyNaCl is not installed, voice will NOT be supported
+16:08:48 WARNING  discord.client: davey is not installed, voice will NOT be supported
+16:08:48 INFO     discord.client: logging in using static token
+16:08:49 INFO     tickets: Persistent components ready: ['ticket:adduser', 'ticket:claim', 'ticket:close', 'ticket:open']
+16:08:49 INFO     tickets: Synced 1 commands to guild 1557752598998818867 (immediate).
+16:08:50 INFO     tickets: Cleared global command copies; guild commands remain active.
+16:08:51 INFO     discord.gateway: Shard ID None has connected to Gateway (Session ID: 69c74e8458372157890bda527dd9d405).
+16:08:53 INFO     tickets: Logged in as Vitu-Chan Ticket#1607 (1568286573424807996), serving 1 guild(s).
+16:08:59 WARNING  discord.client: PyNaCl is not installed, voice will NOT be supported
+16:08:59 WARNING  discord.client: davey is not installed, voice will NOT be supported
+16:08:59 INFO     discord.client: logging in using static token
+16:09:00 INFO     tickets: Persistent components ready: ['ticket:adduser', 'ticket:claim', 'ticket:close', 'ticket:open']
+16:09:49 INFO     tickets: Synced 1 commands to guild 1557752598998818867 (immediate).
+16:09:49 INFO     tickets: Cleared global command copies; guild commands remain active.
+16:09:51 INFO     discord.gateway: Shard ID None has connected to Gateway (Session ID: 0f45ec002a5ae85bdcaa29c6daf7826c).
+16:09:53 INFO     tickets: Logged in as Vitu-Chan Ticket#1607 (1568286573424807996), serving 1 guild(s).
+16:10:10 INFO     tickets: Component interaction 'ticket:open' by gregoryis123 (1525898113166999802) in channel 1568446874002788382
+16:10:21 INFO     tickets: [pjs_exploit server] Ticket #0007 opened by gregoryis123 (1525898113166999802) - General Support
+16:10:32 INFO     tickets: Claim attempt: guild=1557752598998818867 channel=1568553183696126022 user=gregoryis123 (1525898113166999802) message=1568553186237616211
+16:10:32 INFO     tickets: Component interaction 'ticket:claim' by gregoryis123 (1525898113166999802) in channel 1568553183696126022
+16:10:46 INFO     tickets: Component interaction 'ticket:close' by gregoryis123 (1525898113166999802) in channel 1568553183696126022
+16:10:59 WARNING  tickets: Could not deliver the transcript to the log channel: 403 Forbidden (error code: 50001): Missing Access
+16:11:01 INFO     tickets: [pjs_exploit server] Ticket #0007 closed by gregoryis123 (1525898113166999802): son..... fuck you nigger
+17:36:02 INFO     tickets: Component interaction 'ticket:open' by hahahahaa0104 (1566857926801621012) in channel 1568446874002788382
+17:36:21 INFO     tickets: [pjs_exploit server] Ticket #0008 opened by hahahahaa0104 (1566857926801621012) - Report a Member
+17:36:28 INFO     tickets: Component interaction 'ticket:adduser' by hahahahaa0104 (1566857926801621012) in channel 1568574824949743646
+17:36:32 INFO     tickets: Component interaction 'ticket:close' by hahahahaa0104 (1566857926801621012) in channel 1568574824949743646
+17:36:38 INFO     tickets: Claim attempt: guild=1557752598998818867 channel=1568574824949743646 user=hahahahaa0104 (1566857926801621012) message=1568574827328053328
+17:36:38 INFO     tickets: Component interaction 'ticket:claim' by hahahahaa0104 (1566857926801621012) in channel 1568574824949743646
+17:38:58 INFO     tickets: Component interaction 'ticket:close' by hahahahaa0104 (1566857926801621012) in channel 1568574824949743646
+17:39:04 WARNING  tickets: Could not deliver the transcript to the log channel: 403 Forbidden (error code: 50001): Missing Access
+17:39:06 INFO     tickets: [pjs_exploit server] Ticket #0008 closed by hahahahaa0104 (1566857926801621012): n
+17:58:13 INFO     tickets: Component interaction 'ticket:open' by hahahahaa0104 (1566857926801621012) in channel 1568446874002788382
+17:58:23 INFO     tickets: [pjs_exploit server] Ticket #0009 opened by hahahahaa0104 (1566857926801621012) - Something Else
+17:58:31 INFO     tickets: Claim attempt: guild=1557752598998818867 channel=1568580371488964698 user=gregoryis123 (1525898113166999802) message=1568580373330272337
+17:58:31 INFO     tickets: Component interaction 'ticket:claim' by gregoryis123 (1525898113166999802) in channel 1568580371488964698
+18:01:18 INFO     tickets: Component interaction 'ticket:close' by gregoryis123 (1525898113166999802) in channel 1568580371488964698
+18:01:26 WARNING  tickets: Could not deliver the transcript to the log channel: 403 Forbidden (error code: 50001): Missing Access
+18:01:28 INFO     tickets: [pjs_exploit server] Ticket #0009 closed by gregoryis123 (1525898113166999802): cool

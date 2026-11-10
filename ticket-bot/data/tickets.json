@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "guilds": {
+    "1557752598998818867": {
+      "enabled": true,
+      "category_id": 1568441688899321876,
+      "log_channel_id": 1565317249932460094,
+      "panel_channel_id": 1568446874002788382,
+      "panel_message_id": 1568467328440598560,
+      "support_role_ids": [
+        1565756418622095430
+      ],
+      "types": [
+        {
+          "key": "support",
+          "label": "General Support",
+          "description": "Get help with anything",
+          "emoji": "\ud83d\udee0\ufe0f",
+          "category_id": null,
+          "ping_role_ids": []
+        },
+        {
+          "key": "report",
+          "label": "Report a Member",
+          "description": "Report rule breaking or abuse",
+          "emoji": "\ud83d\udea8",
+          "category_id": null,
+          "ping_role_ids": []
+        },
+        {
+          "key": "other",
+          "label": "Something Else",
+          "description": "Anything that does not fit above",
+          "emoji": "\u2753",
+          "category_id": null,
+          "ping_role_ids": []
+        }
+      ],
+      "max_open_per_user": 1,
+      "counter": 9,
+      "total_opened": 9
+    }
+  },
+  "tickets": {}
+}
